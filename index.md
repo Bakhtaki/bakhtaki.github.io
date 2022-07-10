@@ -42,6 +42,9 @@ Job title : IT Manger@FMCG industry , IT Bussines Analayst
 <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" /> 
 <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" /> 
  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" />
+ 
+ <img src="https://github-readme-stats.vercel.app/api?username=bakhtaki&count_private=true&theme=radical&show_icons=true" />
+
 
 for more details:
 You also Can See about me:
