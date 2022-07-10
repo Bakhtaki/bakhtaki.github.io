@@ -3,6 +3,16 @@
 ## Hamid Reza Bakhtaki
 
 Job title : IT Manger@FMCG industry , IT Bussines Analayst
+for more details:
+You also Can See about me:
+[Click Here](https://bakhtaki.github.io/aboutme)
+
+### Github Statistics
+
+ <img src="https://github-readme-stats.vercel.app/api?username=bakhtaki&count_private=true&theme=radical&show_icons=true" />  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bakhtaki"/>
+ [![trophy](https://github-profile-trophy.vercel.app/?username=bakhtaki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+
 
 ### Interests :
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue&style=flat" /> <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white&style=flat" />
@@ -43,12 +53,7 @@ Job title : IT Manger@FMCG industry , IT Bussines Analayst
 <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white&style=flat" /> 
  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&style=flat" /> <img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white&style=flat" />
  
- <img src="https://github-readme-stats.vercel.app/api?username=bakhtaki&count_private=true&theme=radical&show_icons=true" />  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bakhtaki"/>
- [![trophy](https://github-profile-trophy.vercel.app/?username=bakhtaki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-for more details:
-You also Can See about me:
-[Click Here](https://bakhtaki.github.io/aboutme)
 
 # This Page is Under Constraction and Update Countinously
