@@ -1,6 +1,6 @@
 # Welcome to My Personal Github Pages
 
-## Hamid Reza Bakhtaki **
+## Hamid Reza Bakhtaki
 
 Job title : IT Manger@FMCG industry , IT Bussines Analayst
 
