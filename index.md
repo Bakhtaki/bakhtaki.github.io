@@ -4,9 +4,7 @@
 
 Job title : IT Manger@FMCG industry , IT Bussines Analayst
 
-Intersted in: Python,Cyber Security,Linux,Raspberry, Ethical Hacking, Devops, Networkig.
-
-
+https://img.shields.io/badge/lenovo%20laptop-E2231A?style=for-the-badge&logo=lenovo&logoColor=white
 
 for more details:
 You also Can See about me:
