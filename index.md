@@ -44,18 +44,15 @@ You also Can See about me:
 <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white&style=flat" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white&style=flat" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white&style=flat" /> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white&style=flat" />  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white&style=flat" />
 </details>
 
+
 <details >
-<summary><b>&nbsp;Profile Status</b></summary> 
+<summary><b>&nbsp;Profile Status</b></summary>
+ 
 <br>
+ 
 <div align="left">
 <img height="192px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bakhtaki&layout=compact&theme=dark&langs_count=8" /> 
 </div>
-
-<p>
- 
-[![trophy](https://github-profile-trophy.vercel.app/?username=bakhtaki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy) 
- 
-</p>
 
 </details>
 
