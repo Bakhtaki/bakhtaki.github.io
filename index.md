@@ -1,4 +1,6 @@
-# Welcome to My Personal Github Pages
+<div align="center">
+Welcome to My Personal Github Pages
+</div>
 
 ## Hamid Reza Bakhtaki
 
