@@ -52,7 +52,9 @@ You also Can See about me:
 </div>
 
 <p>
+ 
 [![trophy](https://github-profile-trophy.vercel.app/?username=bakhtaki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy) 
+ 
 </p>
 
 </details>
