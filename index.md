@@ -51,6 +51,8 @@ You also Can See about me:
 <img height="192px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bakhtaki&layout=compact&theme=dark&langs_count=8" /> 
 
  
+
+ 
 [![trophy](https://github-profile-trophy.vercel.app/?username=bakhtaki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy) 
 </div>
 
