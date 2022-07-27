@@ -13,7 +13,7 @@ You also Can See about me:
 <img src="https://github-readme-stats.vercel.app/api?username=bakhtaki&count_private=true&theme=dark&show_icons=true"/> 
 </div>
 <details open>
-<summary> <b>  :computer: &nbsp;Skills</b></summary>
+<summary> <b> &nbsp;Skills</b></summary>
 <br>
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue&style=flat" /> <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white&style=flat" />
 <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&style=flat" />
