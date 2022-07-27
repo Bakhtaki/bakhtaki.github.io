@@ -1,5 +1,5 @@
 <div align="center">
-<h2> Welcome to My Personal Github Pages <h2>
+<h2> Welcome to My Personal Github Pages </h2>
 </div>
 
 ## Hamid Reza Bakhtaki
