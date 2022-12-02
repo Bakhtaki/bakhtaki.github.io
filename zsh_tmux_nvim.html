@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ZSH + TMUX + (N)VIM All the best IDE</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog Template" />
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- FontAwesome JS-->
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+    integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous">
+  </script>
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css" />
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/theme-3.css" />
+</head>
+
+<body>
+  <header class="header text-center">
+    <h1 class="blog-name pt-lg-4 mb-0">
+      <a href="index.html">hamid's Blog</a>
+    </h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navigation" class="collapse navbar-collapse flex-column">
+        <div class="profile-section pt-3 pt-lg-0">
+          <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile1.jpeg" alt="image" />
+          <div class="bio mb-3">
+            Hi,my name is Hamid.SysAdmin,Network Admin, BI Developer, Python
+            Developer,Data Scientist.<br /><a href="about.html">Find out more about me</a>
+          </div>
+          <!--//bio-->
+          <ul class="social-list list-inline py-3 mx-auto">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/hamidrb85"><i class="fab fa-twitter fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/hamid-reza-bakhtaki-7760b546/"><i
+                  class="fab fa-linkedin-in fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/Bakhtaki"><i class="fab fa-github-alt fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://stackoverflow.com/users/13155279/hamid-reza-bakhtaki"><i
+                  class="fab fa-stack-overflow fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.kaggle.com/hamidrezabakhtaki"><i class="fab fa-kaggle fa-fw"></i></a>
+            </li>
+          </ul>
+          <!--//social-list-->
+          <hr />
+        </div>
+        <!--//profile-section-->
+
+        <ul class="navbar-nav flex-column text-left">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home
+              <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog-list.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+          </li>
+        </ul>
+
+        <div class="my-2 my-md-3">
+          <a class="btn btn-primary" href="mailto:hamidreza.bakhtaki@gmail.com" target="_blank">Get in Touch</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-wrapper">
+    <article class="blog-post px-3 py-5 p-md-5">
+      <div class="container">
+        <header class="blog-post-header">
+          <h2 class="title mb-2">ZSH + TMUX + (N)VIM All the best IDE</h2>
+          <div class="meta mb-3">
+            <span class="date">Published 3 months ago</span><span class="time">5 min read</span><span class="comment"><a
+                href="#">4 comments</a></span>
+          </div>
+        </header>
+
+        <div class="blog-post-body">
+          <figure class="blog-banner">
+            <a href="https://made4dev.com"><img class="img-fluid" src="assets/images/blog/ztv.jpg" alt="image" /></a>
+            <figcaption class="mt-2 text-center image-caption">
+              Image Captured from:
+              <a>My MacBook M1</a>
+            </figcaption>
+          </figure>
+          <p>
+            AS I mentioned in my previous post, I am a big fan of ZSH and
+            TMUX. I use them in my daily work. I have been using them for a
+            long time. also I am a big fan of (N)VIM. I use it for editing my
+            code. at the first i was using it with the default terminal. but
+            after a while, I realized that it is not a good idea. I need to
+            use a better IDE for editing my code. I tried many IDEs. but I did
+            not like them. I realized that I need to use a terminal based IDE.
+            I started to use (N)VIM with ZSH and TMUX. I realized that it is
+            the best IDE for me. Also I am a big fan of Python. I use to work
+            with vim at the first. but after a while, I realized that there is
+            newer version of vim named neovim with more capabilities. I
+            started to use neovim.
+          </p>
+
+          <h3 class="mt-5 mb-3">Magic of Plugins</h3>
+          <p>
+            For all these tools there is a plugin Manager. and lots of plugins
+            for them. I am using oh_my_zsh for ZSH. and TPM for TMUX. and
+            vim-plug for (N)VIM. I am using these plugins for my daily work. I
+            am going to explain some of them. you can Customize your ZSH with
+            oh_my_zsh. you can install plugins for that also the same for
+            tmux. and for (N)VIM.
+          </p>
+
+          Usually,there is config file for each of them. you can customize them
+          throw that file. after configuration you will see the magic of
+          these tools.
+          </p>
+          the config file for ZSH is .zshrc. the config file for TMUX is
+          .tmux.conf. the config file for (N)VIM is init.vim. you can find
+          these files in your home directory. you can customize them with
+          your favorite text editor. I am using (N)VIM for editing these
+          files.
+          </p>
+          <pre>
+					    <code>
+def playingWithNumbers(arr, queries):
+    # Write your code here
+    # Septate positive and negative numbers in the array
+    positive_numbers = [element for element in arr if element >= 0]
+    negative_numbers = [element for element in arr if element < 0]
+
+    # Size of each array
+    positive_size = len(positive_numbers)
+    negative_size = len(negative_numbers)
+
+    # Sort the arrays
+    positive = sorted(Counter(positive_numbers).items(), reverse=True)
+    negative = sorted(Counter(negative_numbers).items())
+					    </code>
+				    </pre>
+          <h3 class="mt-5 mb-3">My Configuration Files</h3>
+          <p>
+            I am going to share my configuration files for ZSH, TMUX, and
+            (N)VIM.you can find them in my GitHub repository.
+            usually most of developers have a repository in their GitHub
+            with .dotfiles name. you can find my .dotfiles repository in my
+            GitHub. you can find my configuration files in that repository.
+          </p>
+          Please note that you need to install these tools before using my
+          configuration files. you can find the installation guide for
+          these tools in their official websites.
+
+          <h3 class="mt-5 mb-3">Github Link</h3>
+          <p>
+            Please use below link to access my .dotfiles repository:
+            <a href="https://github.com/Bakhtaki/.dotfiles ">My Config Files</a>
+          </p>
+          </p>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+          <nav class="blog-nav nav nav-justified my-5">
+            <a class="nav-link-prev nav-item nav-link rounded-left" href="index.html">Previous<i
+                class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+            <a class="nav-link-next nav-item nav-link rounded-right" href="blog-list.html">Next<i
+                class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+          </nav>
+
+          <div class="blog-comments-section">
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
+               *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
+               *  PLATFORM OR CMS.
+               *
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
+               *  https://disqus.com/admin/universalcode/#configuration-variables
+               */
+              /*
+              var disqus_config = function () {
+                  // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.url = PAGE_URL;
+                  // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  this.page.identifier = PAGE_IDENTIFIER;
+              };
+              */
+
+              (function () {
+                // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                var d = document,
+                  s = d.createElement("script");
+
+                // IMPORTANT: Replace 3wmthemes with your forum shortname!
+                s.src = "https://3wmthemes.disqus.com/embed.js";
+
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>
+              Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+                comments powered by Disqus.
+              </a>
+            </noscript>
+          </div>
+          <!--//blog-comments-section-->
+        </div>
+        <!--//container-->
+    </article>
+
+
+    <!--//promo-section-->
+
+    <footer class="footer text-center py-2 theme-bg-dark">
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a"></i> by
+        <a href="http://themes.3rdwavemedia.com" target="_blank">Hamid Reza Bakhtaki</a>
+      </small>
+    </footer>
+  </div>
+  <!--//main-wrapper-->
+
+  <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
+  <div id="config-panel" class="config-panel d-none d-lg-block">
+    <div class="panel-inner">
+      <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i
+          class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6"></i></a>
+      <h5 class="panel-title">Choose Colour</h5>
+      <ul id="color-options" class="list-inline mb-0">
+        <li class="theme-1 active list-inline-item">
+          <a data-style="assets/css/theme-1.css" href="#"></a>
+        </li>
+        <li class="theme-2 list-inline-item">
+          <a data-style="assets/css/theme-2.css" href="#"></a>
+        </li>
+        <li class="theme-3 list-inline-item">
+          <a data-style="assets/css/theme-3.css" href="#"></a>
+        </li>
+        <li class="theme-4 list-inline-item">
+          <a data-style="assets/css/theme-4.css" href="#"></a>
+        </li>
+        <li class="theme-5 list-inline-item">
+          <a data-style="assets/css/theme-5.css" href="#"></a>
+        </li>
+        <li class="theme-6 list-inline-item">
+          <a data-style="assets/css/theme-6.css" href="#"></a>
+        </li>
+        <li class="theme-7 list-inline-item">
+          <a data-style="assets/css/theme-7.css" href="#"></a>
+        </li>
+        <li class="theme-8 list-inline-item">
+          <a data-style="assets/css/theme-8.css" href="#"></a>
+        </li>
+      </ul>
+      <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+    </div>
+    <!--//panel-inner-->
+  </div>
+  <!--//configure-panel-->
+
+  <!-- Javascript -->
+  <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+  <script src="assets/plugins/popper.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Page Specific JS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="assets/js/blog.js"></script>
+
+  <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+  <script src="assets/js/demo/style-switcher.js"></script>
+</body>
+
+</html>
