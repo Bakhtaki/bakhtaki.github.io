@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kali Linux on ARM</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog Template" />
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- FontAwesome JS-->
+  <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+    integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous">
+  </script>
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/monokai-sublime.min.css" />
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/theme-3.css" />
+</head>
+
+<body>
+  <header class="header text-center">
+    <h1 class="blog-name pt-lg-4 mb-0">
+      <a href="index.html">hamid's Blog</a>
+    </h1>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navigation" class="collapse navbar-collapse flex-column">
+        <div class="profile-section pt-3 pt-lg-0">
+          <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile1.jpeg" alt="image" />
+          <div class="bio mb-3">
+            Hi,my name is Hamid.SysAdmin,Network Admin, BI Developer, Python
+            Developer,Data Scientist.<br /><a href="about.html">Find out more about me</a>
+          </div>
+          <!--//bio-->
+          <ul class="social-list list-inline py-3 mx-auto">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/hamidrb85"><i class="fab fa-twitter fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/hamid-reza-bakhtaki-7760b546/"><i
+                  class="fab fa-linkedin-in fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/Bakhtaki"><i class="fab fa-github-alt fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://stackoverflow.com/users/13155279/hamid-reza-bakhtaki"><i
+                  class="fab fa-stack-overflow fa-fw"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.kaggle.com/hamidrezabakhtaki"><i class="fab fa-kaggle fa-fw"></i></a>
+            </li>
+          </ul>
+          <!--//social-list-->
+          <hr />
+        </div>
+        <!--//profile-section-->
+
+        <ul class="navbar-nav flex-column text-left">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home
+              <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog-list.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+          </li>
+        </ul>
+
+        <div class="my-2 my-md-3">
+          <a class="btn btn-primary" href="mailto:hamidreza.bakhtaki@gmail.com" target="_blank">Get in Touch</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-wrapper">
+    <article class="blog-post px-3 py-5 p-md-5">
+      <div class="container">
+        <header class="blog-post-header">
+          <h2 class="title mb-2">Kali linux on Raspberry Pi</h2>
+          <div class="meta mb-3">
+            <span class="date">Published 1 months ago</span><span class="time">5 min read</span><span class="comment"><a
+                href="#"></a></span>
+          </div>
+        </header>
+
+        <div class="blog-post-body">
+          <figure class="blog-banner">
+            <a href="https://made4dev.com"><img class="img-fluid" src="assets/images/kali.jpg"
+                alt="image" /></a>
+          </figure>
+          <p>
+            <h3>How to Install Kali Linux on Raspberry Pi</h3>
+            <h4>Kali linux</h4>
+            Kali Linux is a popular distribution for security and penetration
+            testing, with hundreds
+            of tools for ethical hacking, forensics, reverse engineering and
+            more. In this blog post, we will show you how to install Kali
+            Linux on a Raspberry Pi, a low-cost and versatile single-board
+            computer that can run Kali Linux as well as other operating
+            systems.
+            <h4>Prerequisites</h4>
+            What You Need To install Kali Linux on a Raspberry Pi,
+            you will need the following:
+            <br>
+            - A Raspberry Pi 4 (or 3) with at
+            least 2 GB of RAM. We recommend the 4 GB or 8 GB model for better
+            performance.
+            <br>
+            - A microSD card with at least 16 GB of storage
+            capacity. Class 10 cards are highly recommended for faster read
+            and write speeds.
+            <br>
+            - A power supply for your Raspberry Pi,
+            preferably with a USB-C connector for the Pi 4.
+            <br>
+            - A monitor, a
+            keyboard and a mouse for your Raspberry Pi, or a way to access it
+            remotely via SSH or VNC.
+            <br>
+            - A computer with an SD card reader and
+            an internet connection to download and flash the Kali Linux image.
+            <h4>How to install </h4>
+            Download and Flash the Kali Linux Image The first step is to
+            download the Kali Linux image for your Raspberry Pi from the
+            official website. There are two versions available: one for 32-bit
+            ARM architecture and one for 64-bit ARM architecture. The 32-bit
+            version is compatible with all Raspberry Pi models, while the
+            64-bit version is only compatible with the Pi 3 and 4. The 64-bit
+            version may offer some advantages in terms of performance and
+            compatibility with some tools, but it may also have some issues
+            with drivers and stability. We recommend using the 32-bit version
+            unless you have a specific reason to use the 64-bit one. To
+            download the image, go to https://www.kali.org/get-kali/#kali-arm
+            and scroll down to the "RaspberryPi Foundation" section. Click on
+            the image name or the torrent link to start the download. The
+            image file is compressed in XZ format, so you will need a software
+            that can extract it, such as 7-Zip or WinRAR. Once you have
+            downloaded and extracted the image file, you will need to flash it
+            to your microSD card using a software such as Balena Etcher or
+            Raspberry Pi Imager. Both are free and easy to use, and they can
+            automatically detect your SD card and verify the flashing process.
+            You can download them from https://www.balena.io/etcher/ or
+            https://www.raspberrypi.org/software/, respectively.
+            <h4>Flashing the image</h4>
+            <h5>Etcher</h5>
+            To flash the
+            image with Etcher, follow these steps: - Open Etcher and click on
+            "Select Image". Browse to the folder where you extracted the Kali
+            Linux image file and select it. - Click on "Select Target" and
+            choose your microSD card from the list. Make sure you select the
+            correct device, as this process will erase all data on it. - Click
+            on "Flash!" and wait for the process to complete. It may take
+            several minutes depending on your SD card speed and size. - Once
+            done, eject your microSD card safely from your computer.
+            <h5>Raspberry Pi Imager</h5>
+            To flash
+            the image with Raspberry Pi Imager, follow these steps: - Open
+            Raspberry Pi Imager and click on "Choose OS". Scroll down to "Use
+            custom" and select your Kali Linux image file from your folder. -
+            Click on "Choose SD Card" and select your microSD card from the
+            list. Make sure you select the correct device, as this process
+            will erase all data on it. - Click on "Write" and confirm by
+            clicking on "Yes". Wait for the process to complete. It may take
+            several minutes depending on your SD card speed and size. - Once
+            done, eject your microSD card safely from your computer.
+            <h4>Boot the Device with kali</h4>
+            Boot Up
+            Your Raspberry Pi with Kali Linux Now that you have flashed your
+            microSD card with Kali Linux, you can insert it into your
+            Raspberry Pi and boot it up. Connect your power supply, monitor,
+            keyboard and mouse to your Raspberry Pi, or set up SSH or VNC
+            access if you prefer. Turn on your Raspberry Pi and wait for it to
+            load. The default username and password for Kali Linux are kali /
+            kali. You should change them as soon as possible for security
+            reasons. To do so, open a terminal window and type: sudo passwd
+            root Enter a new password twice and confirm. Then type: sudo
+            passwd kali Enter a new password twice and confirm. You can also
+            change other settings such as network configuration, keyboard
+            layout, timezone, etc., by
+          </p>
+          <h4>Conclusion</h4>
+          <p>
+            In this blog post, we have shown you how to install Kali Linux on
+            a Raspberry Pi. Kali Linux is a popular distribution for security
+            and penetration testing, with hundreds of tools for ethical
+            hacking, forensics, reverse engineering and more. In this blog
+            post, we will show you how to install Kali Linux on a Raspberry
+            Pi, a low-cost and versatile single-board computer that can run
+            Kali Linux as well as other operating systems.
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
+               *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
+               *  PLATFORM OR CMS.
+               *
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
+               *  https://disqus.com/admin/universalcode/#configuration-variables
+               */
+              /*
+					    var disqus_config = function () {
+					        // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.url = PAGE_URL;
+					        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					        this.page.identifier = PAGE_IDENTIFIER;
+					    };
+					    */
+
+              (function () {
+                // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                var d = document,
+                  s = d.createElement("script");
+
+                // IMPORTANT: Replace 3wmthemes with your forum shortname!
+                s.src = "https://3wmthemes.disqus.com/embed.js";
+
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>
+              Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+                comments powered by Disqus.
+              </a>
+            </noscript>
+        </div>
+      </div>
+    </article>
+
+
+    <footer class="footer text-center py-2 theme-bg-dark">
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a"></i> by
+        <a href="http://themes.3rdwavemedia.com" target="_blank">Hamid Reza Bakhtaki</a>
+      </small>
+    </footer>
+  </div>
+  <!--//main-wrapper-->
+
+  <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
+  <div id="config-panel" class="config-panel d-none d-lg-block">
+    <div class="panel-inner">
+      <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i
+          class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6"></i></a>
+      <h5 class="panel-title">Choose Colour</h5>
+      <ul id="color-options" class="list-inline mb-0">
+        <li class="theme-1 active list-inline-item">
+          <a data-style="assets/css/theme-1.css" href="#"></a>
+        </li>
+        <li class="theme-2 list-inline-item">
+          <a data-style="assets/css/theme-2.css" href="#"></a>
+        </li>
+        <li class="theme-3 list-inline-item">
+          <a data-style="assets/css/theme-3.css" href="#"></a>
+        </li>
+        <li class="theme-4 list-inline-item">
+          <a data-style="assets/css/theme-4.css" href="#"></a>
+        </li>
+        <li class="theme-5 list-inline-item">
+          <a data-style="assets/css/theme-5.css" href="#"></a>
+        </li>
+        <li class="theme-6 list-inline-item">
+          <a data-style="assets/css/theme-6.css" href="#"></a>
+        </li>
+        <li class="theme-7 list-inline-item">
+          <a data-style="assets/css/theme-7.css" href="#"></a>
+        </li>
+        <li class="theme-8 list-inline-item">
+          <a data-style="assets/css/theme-8.css" href="#"></a>
+        </li>
+      </ul>
+      <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+    </div>
+    <!--//panel-inner-->
+  </div>
+  <!--//configure-panel-->
+
+  <!-- Javascript -->
+  <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+  <script src="assets/plugins/popper.min.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Page Specific JS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="assets/js/blog.js"></script>
+
+  <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+  <script src="assets/js/demo/style-switcher.js"></script>
+</body>
+
+</html>
